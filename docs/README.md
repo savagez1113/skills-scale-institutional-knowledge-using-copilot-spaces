@@ -1,10 +1,10 @@
 # OctoAcme Project Management Docs
 
-This repository centralizes the core project management practices used by OctoAcme for planning, delivery, communication, and continuous improvement. The process begins with initiation, where teams validate the business need, identify stakeholders, define success metrics, and produce a lightweight project one-pager before committing to deeper planning. Once the initiative is approved, the team moves into planning to break work into prioritized, estimable backlog items, clarify dependencies, and align scope, milestones, and release timing. This lifecycle is designed to keep work purposeful, visible, and aligned with clear ownership across the team.
+This repository centralizes the core project management practices used by OctoAcme for planning, delivery, communication, and continuous improvement. OctoAcme follows a structured lifecycle that begins with initiation, moves into planning and execution, and closes with release and continuous improvement.
 
-OctoAcme relies on clear roles and explicit operating rhythms to maintain execution quality. Product managers define outcomes and priorities, project managers coordinate delivery, risks, and communication, and developers and QA partners implement and validate the work against accepted criteria. Communication is structured around daily standups, weekly status updates, milestone demos, and escalation paths that move issues from the team to the PM, Product Lead, and sponsor as needed. A single source of truth for status and decisions helps maintain transparency and reduces confusion across stakeholders and dependent teams.
+OctoAcme relies on clear roles and explicit operating rhythms to keep work aligned and accountable. Product managers define outcomes and priorities, project managers coordinate delivery, risks, and communications, and engineering teams execute the work with agreed quality standards and acceptance criteria.
 
-Quality assurance is embedded throughout delivery rather than treated as a final step. Teams use project boards with defined workflow states, require clear acceptance criteria in pull requests, and depend on CI to enforce testing, linting, and security checks before merge. Release and deployment guidance adds pre-release requirements, smoke testing, rollback plans, and post-deployment verification to reduce risk in production. After each sprint or milestone, retrospectives capture what went well, what needs improvement, and what actions should be tracked in the backlog to support a culture of continuous learning.
+Quality and visibility are built into each stage of delivery. Teams use project boards with clearly defined workflow states, require acceptance criteria in pull requests, monitor risks and dependencies, and communicate progress through regular syncs and milestone updates.
 
 ## Document Index
 
@@ -17,10 +17,14 @@ Quality assurance is embedded throughout delivery rather than treated as a final
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [Roles and Personas](octoacme-roles-and-personas.md)
 
-## Process Lifecycle
+## OctoAcme Project Management Process Summary
 
-1. Initiation — confirm the problem, stakeholders, success metrics, and go/no-go decision
-2. Planning — define backlog, scope, milestones, dependencies, and delivery approach
-3. Execution — build, test, review, and track work with transparent team rhythm
-4. Release — validate in staging, deploy carefully, verify outcomes, and communicate changes
-5. Retrospective — learn, improve, and carry action items forward into future work
+OctoAcme uses a simple, repeatable project lifecycle:
+
+1. Initiation — confirm the problem, stakeholders, success metrics, and go/no-go decision.
+2. Planning — define scope, backlog, milestones, dependencies, and delivery approach.
+3. Execution — build, test, review, and track progress with clear team rhythm and escalation paths.
+4. Release — validate in staging, deploy carefully, verify outcomes, and communicate changes.
+5. Retrospective — capture learning, address action items, and improve the process for the next cycle.
+
+This structure helps teams align on outcomes, reduce uncertainty, and maintain momentum from idea through delivery.
